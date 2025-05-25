@@ -19,12 +19,11 @@ Recommend top-rated restaurants to users based on preferences like:
 - Applied **TF-IDF Vectorizer** to transform text into numeric feature vectors
 
 ### 3. **Similarity Calculation**
-- Used **cosine similarity** between user input and restaurant vectors
-- Filtered results based on cost & rating criteria
+- Filtered results based on city, cost & rating criteria
+- Used cosine similarity between user input and restaurant vectors
 - Returned top 5 most similar restaurants
 
 ## Streamlit App Features
-
 - Select City, Cuisine, Price Range
 - Set Cost and Minimum Rating
 - Click "Get Recommendations" to view results
